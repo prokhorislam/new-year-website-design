@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background-banner{
+    background-image: linear-gradient( to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url('../resources/Banner\ Image.png');
+    background-repeat: round;
+    border-radius: 5px;
+    width: 80vw;
+    height: 75vh;
+    margin:10px auto 0 auto;
+    display: grid;
+    
+}
+.banner-text1{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.banner-text2{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-style: bold;
+}
+.banner-text3{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+.discount{
+    color: red;
+    font-size: 70px;
+    margin: 5vh auto 5vh auto; 
+    padding: 5px 0;
+}
+.holiday{
+    text-align: center;
+    color: red;
+    font-size: 19px;
+}
+.categories{
+    text-align: center;
+    color: black;
+    margin: 1vh 0 4vh 0;
+    padding: 5px 0px;
+    font-size: 40px;
+}
+.new-year{
+    text-align: center;
+    width: 60vw;
+}
+#second-sec{
+    display: grid;
+    justify-content:center ;
+    align-items:center ;
+}
+#third-sec{
+    background-image:linear-gradient( to right, rgba(0,0,0,0.8), rgba(0,0,0,0.0) ),url('../resources/Vectorrr.png');
+    height: 80vh;
+    width: 80vw;
+    margin: 10vh auto 10vh auto;
+}
+.third-sec-text1{
+    color: white;
+    font-size: 62px;
+    margin: 0 0 4vh 8vw;
+    padding-top: 15vh;
+}
+.third-sec-text2{
+    color: aliceblue;
+    margin: 0 0 0 8vw;
+    font-size: 12px;
+
+}
+.third-sec-text3{
+color: white;
+margin: 3vh 0 0 10vw;
+
+}
