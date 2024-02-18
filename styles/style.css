@@ -3,7 +3,7 @@
     margin: 0;
 }
 .background-banner{
-    background-image: linear-gradient( to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url('../resources/Banner\ Image.png');
+    background-image: linear-gradient( to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url('../images/Banner\ Image.png');
     background-repeat: round;
     border-radius: 5px;
     width: 80vw;
@@ -58,7 +58,7 @@
     align-items:center ;
 }
 #third-sec{
-    background-image:linear-gradient( to right, rgba(0,0,0,0.8), rgba(0,0,0,0.0) ),url('../resources/Vectorrr.png');
+    background-image:linear-gradient( to right, rgba(0,0,0,0.8), rgba(0,0,0,0.0) ),url('../images/Vectorrr.png');
     height: 80vh;
     width: 80vw;
     margin: 10vh auto 10vh auto;
