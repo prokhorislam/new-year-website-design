@@ -1,82 +1,252 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.background-banner{
-    background-image: linear-gradient( to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url('../images/Banner\ Image.png');
-    background-repeat: round;
-    border-radius: 5px;
-    width: 80vw;
-    height: 75vh;
-    margin:10px auto 0 auto;
+span{
+  color: red;
+}
+            /* first section (banner) */
+.background-banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/Banner\ Image.png");
+  background-repeat: round;
+  border-radius: 5px;
+  width: 90vw;
+  height: 75vh;
+  margin: 10vh auto 0 auto;
+  display: grid;
+}
+.banner-text1 {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+.banner-text2 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-style: bold;
+}
+.banner-text3 {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+.discount {
+  color: red;
+  font-size: 70px;
+  margin: 5vh auto 5vh auto;
+  padding: 5px 0;
+}
+.holiday {
+  text-align: center;
+  color: red;
+  font-size: 19px;
+}
+.categories {
+  text-align: center;
+  color: black;
+  margin: 1vh 0 4vh 0;
+  padding: 5px 0px;
+  font-size: 40px;
+}
+.new-year {
+  text-align: center;
+  width: 60vw;
+}
+                    /* second sec  */
+#second-sec {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+                /* third sec */
+#third-sec {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/Vectorrr.png");
+  height: 80vh;
+  width: 90vw;
+  margin: 15vh auto 15vh auto;
+}
+.third-sec-text1 {
+  color: white;
+  font-size: 62px;
+  margin: 0 0 4vh 8vw;
+  padding-top: 15vh;
+}
+.third-sec-text2 {
+  color: aliceblue;
+  margin: 0 0 0 8vw;
+  font-size: 12px;
+}
+.third-sec-text3 {
+  color: white;
+  margin: 3vh 0 0 10vw;
+}
+                /* fourth sec */
+#fourth-sec {
+  overflow-x: hidden;
     display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin: auto;
+  height: 80vh;
+  width: 90vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.15),
+    rgb(255, 255, 255)
+  );
+}
+.sec4-texts {
+    padding-top: 15vh;
+    text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.red {
+  color: red;
+}
+button{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border-color: red;
+    box-shadow: none;
+    width: 167px;
+    height: 56px;
+    padding: 16px auto;
     
 }
-.banner-text1{
-    margin-top: 100px;
-    color: white;
-    text-align: center;
-    font-size: 22px;
+.btn{
+ margin: auto;
 }
-.banner-text2{
-    color: white;
-    text-align: center;
-    font-size: 70px;
-    font-style: bold;
-}
-.banner-text3{
-    color: white;
-    text-align: center;
-    font-size: 70px;
-    margin-bottom: 100px;
-}
-.discount{
-    color: red;
-    font-size: 70px;
-    margin: 5vh auto 5vh auto; 
-    padding: 5px 0;
-}
-.holiday{
-    text-align: center;
-    color: red;
-    font-size: 19px;
-}
-.categories{
-    text-align: center;
-    color: black;
-    margin: 1vh 0 4vh 0;
-    padding: 5px 0px;
-    font-size: 40px;
-}
-.new-year{
-    text-align: center;
-    width: 60vw;
-}
-#second-sec{
-    display: grid;
-    justify-content:center ;
-    align-items:center ;
-}
-#third-sec{
-    background-image:linear-gradient( to right, rgba(0,0,0,0.8), rgba(0,0,0,0.0) ),url('../images/Vectorrr.png');
-    height: 80vh;
-    width: 80vw;
-    margin: 10vh auto 10vh auto;
-}
-.third-sec-text1{
-    color: white;
-    font-size: 62px;
-    margin: 0 0 4vh 8vw;
-    padding-top: 15vh;
-}
-.third-sec-text2{
-    color: aliceblue;
-    margin: 0 0 0 8vw;
-    font-size: 12px;
+                    /* fifth sec  */
+#fifth-sec{
+    margin: 35vh auto 10vh auto;
+width: 90vw;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1vw;
+scroll-behavior: none;
 
 }
-.third-sec-text3{
-color: white;
-margin: 3vh 0 0 10vw;
+.fifth-sec-con-1{
+text-align: left;
+}
+.fifth-sec-con-3{
+text-align: right;
+}
+.con1{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.con2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 1vh;
+}
+.con3{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 3vh;
+}
+.fifth-sec-img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+.con4{
+    color: #F00;
+font-size: 48px;
+font-weight: 700;
+}
+.con5{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 2vh;
+    }
+.con6{
+    margin-top: 5vh;
+}
+            /* section six */
+#sixth-sec{
+  overflow-x: hidden;
+  width: 90vw;
+  margin: auto auto;
+}
+.sec-six-texts{
+margin: 35vh auto 15vh auto;
+}
+.sec-six-text1{
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.sec-six-text2{
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+.sec-six-text3{
+  color: rgba(7, 2, 17, 0.60);
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.sec-six-img-div{
 
+}
+.sec-six-img1{
+position: relative;
+z-index: 3;
+right: -450px;
+top: -50px;
+}
+.sec-six-img2{
+  position: relative;
+  z-index: 2;
+  right: -308px;
+}
+.sec-six-img3{
+  position: relative;
+  z-index: 1;
+  left: -10px;
+}
+.sec-six-img4{
+  position: relative;
+  z-index: 4;
+  height: 100vh;
+  width: 60vw;
+  top: -550px;
+  left: -110px;
 }
