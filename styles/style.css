@@ -76,6 +76,7 @@ span {
       rgba(0, 0, 0, 0)
     ),
     url("../images/Vectorrr.png");
+    background-repeat: round;
   height: 80vh;
   width: 90vw;
   margin: 15vh auto 15vh auto;
@@ -232,8 +233,8 @@ span {
   z-index: 3;
   height: 44vh;
   width: 22vw;
-  margin-left: 500px;
-  margin-top: 70px;
+  margin-left: 45vw;
+  margin-top: 6vh;
 }
 .sec-six-img2 {
   background-image: url(../images/Rectangle\ 1.png);
@@ -242,8 +243,8 @@ span {
   width: 34vw;
   position: absolute;
   z-index: 2;
-  margin-left: 652px;
-  margin-bottom: 90px;
+  margin-left: 56vw;
+  margin-top: -14vh;
 }
 .sec-six-img3 {
   background-image: url(../images/Rectangle\ 2.png);
@@ -252,7 +253,7 @@ span {
   height: 26vh;
   width: 90vw;
   z-index: 1;
-  margin-top: 370px;
+  margin-top: 60vh;
 }
 .sec-six-img4 {
   background-image: url(../images/Group\ 75.png);
@@ -261,7 +262,8 @@ span {
   z-index: 4;
   height: 84vh;
   width: 50vw;
-  margin-top: 70px;
+  margin-top: 4vh;
+  margin-left: -4vw;
 }
 /* section seven  */
 #seventh-sec {
@@ -400,10 +402,10 @@ background: #F00;
 footer{
   background-color: black;
   width: 100%;
-  height: 80vh;
+  height: 82vh;
 }
 .footer1part{
-  padding: 10vh;
+  padding: 12vh 11vw 10vh 11vw;
 display: flex;
 justify-content: space-between;
 }
@@ -441,7 +443,7 @@ margin: 10vh 0;
   background-image: url(../images/Linkedin.png);
 }
 .footer3part{
-  padding: 10vh;
+  padding: 10vh 11vw 12vh 11vw;
 display: flex;
 justify-content: space-between;
   }
